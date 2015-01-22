@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Znq-rf-3RE">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--Demo View Controller-->
+        <scene sceneID="Vxy-a0-vgl">
+            <objects>
+                <viewController id="mP3-Uc-sxk" customClass="DemoViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7zN-1Q-Bk5"/>
+                        <viewControllerLayoutGuide type="bottom" id="Gj9-NN-UBV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Yrn-mK-iqO">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <collectionView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="MXM-dm-XGN" customClass="SKTwitterCollectionView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewLayout key="collectionViewLayout" id="bZQ-re-ygQ" customClass="SKTwitterTableLayout"/>
+                                <cells/>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="MXM-dm-XGN" firstAttribute="leading" secondItem="Yrn-mK-iqO" secondAttribute="leading" id="2lw-IT-6xR"/>
+                            <constraint firstItem="MXM-dm-XGN" firstAttribute="top" secondItem="7zN-1Q-Bk5" secondAttribute="bottom" id="SDH-Z2-Ifv"/>
+                            <constraint firstAttribute="trailing" secondItem="MXM-dm-XGN" secondAttribute="trailing" id="Wv9-Tv-mqh"/>
+                            <constraint firstItem="Gj9-NN-UBV" firstAttribute="top" secondItem="MXM-dm-XGN" secondAttribute="bottom" id="hGS-HZ-m63"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <navigationItem key="navigationItem" id="XMB-Id-aNO"/>
+                    <connections>
+                        <outlet property="collectionView" destination="MXM-dm-XGN" id="Mn4-ri-05o"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3sP-Rs-oDa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="329" y="-7"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="xfD-w1-dFR">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Znq-rf-3RE" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="01d-Rr-rBA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="mP3-Uc-sxk" kind="relationship" relationship="rootViewController" id="8gt-IZ-oO0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MnQ-zI-chU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-129" y="-7"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

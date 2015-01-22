@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14041C2E1A71451600CF591A /* SKTwitterViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 14041C2C1A71451600CF591A /* SKTwitterViewController.bundle */; };
+		14CEDD321A7159BF008C54BE /* Main_xcode5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14CEDD301A7159BF008C54BE /* Main_xcode5.storyboard */; };
+		14CEDD401A717F6B008C54BE /* SKTwitterViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14CEDD3F1A717F6B008C54BE /* SKTwitterViewController.framework */; };
 		56370CD91A6F85AA006109EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56370CD81A6F85AA006109EF /* main.m */; };
 		56370CDC1A6F85AA006109EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56370CDB1A6F85AA006109EF /* AppDelegate.m */; };
 		56370CE41A6F85AA006109EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56370CE31A6F85AA006109EF /* Images.xcassets */; };
@@ -22,9 +25,6 @@
 		56370D191A6F8619006109EF /* SKTwitterAlbumMediaViewRectangleStyle.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56370D0E1A6F8619006109EF /* SKTwitterAlbumMediaViewRectangleStyle.xib */; };
 		56370D1A1A6F8619006109EF /* SKTwitterAlbumMediaViewSquareStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 56370D101A6F8619006109EF /* SKTwitterAlbumMediaViewSquareStyle.m */; };
 		56370D1B1A6F8619006109EF /* SKTwitterAlbumMediaViewSquareStyle.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56370D111A6F8619006109EF /* SKTwitterAlbumMediaViewSquareStyle.xib */; };
-		56370D1E1A6F8628006109EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56370D1C1A6F8628006109EF /* Main.storyboard */; };
-		56BAE6271A70A3EC00EB4A12 /* SKTwitterViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 56BAE6251A70A3EC00EB4A12 /* SKTwitterViewController.bundle */; };
-		56BAE6281A70A3EC00EB4A12 /* SKTwitterViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BAE6261A70A3EC00EB4A12 /* SKTwitterViewController.framework */; };
 		930FBF6BEDFBADF5442F1A21 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD01AFC2FF9746A97EEE74D1 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14041C2C1A71451600CF591A /* SKTwitterViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SKTwitterViewController.bundle; sourceTree = "<group>"; };
+		14CEDD311A7159BF008C54BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SKTwitterViewControllerDemo/Base.lproj/Main_xcode5.storyboard; sourceTree = "<group>"; };
+		14CEDD3F1A717F6B008C54BE /* SKTwitterViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SKTwitterViewController.framework; sourceTree = "<group>"; };
 		40840E2FC5388EB6882AC9A3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		56370CD31A6F85AA006109EF /* SKTwitterViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKTwitterViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56370CD71A6F85AA006109EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -69,10 +72,7 @@
 		56370D0F1A6F8619006109EF /* SKTwitterAlbumMediaViewSquareStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTwitterAlbumMediaViewSquareStyle.h; sourceTree = "<group>"; };
 		56370D101A6F8619006109EF /* SKTwitterAlbumMediaViewSquareStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTwitterAlbumMediaViewSquareStyle.m; sourceTree = "<group>"; };
 		56370D111A6F8619006109EF /* SKTwitterAlbumMediaViewSquareStyle.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SKTwitterAlbumMediaViewSquareStyle.xib; sourceTree = "<group>"; };
-		56370D1D1A6F8628006109EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		56370D211A6F8B57006109EF /* libSKTwitterViewController.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSKTwitterViewController.a; path = "../../../../Library/Developer/Xcode/DerivedData/SKTwitterKit-eespxpynzyueehbjhzwtvnnktdig/Build/Products/Debug-iphoneos/libSKTwitterViewController.a"; sourceTree = "<group>"; };
-		56BAE6251A70A3EC00EB4A12 /* SKTwitterViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SKTwitterViewController.bundle; sourceTree = "<group>"; };
-		56BAE6261A70A3EC00EB4A12 /* SKTwitterViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SKTwitterViewController.framework; sourceTree = "<group>"; };
 		A66B3BCF662128DB22A1C204 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		DD01AFC2FF9746A97EEE74D1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -83,7 +83,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				930FBF6BEDFBADF5442F1A21 /* libPods.a in Frameworks */,
-				56BAE6281A70A3EC00EB4A12 /* SKTwitterViewController.framework in Frameworks */,
+				14CEDD401A717F6B008C54BE /* SKTwitterViewController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,8 +109,8 @@
 		56370CCA1A6F85AA006109EF = {
 			isa = PBXGroup;
 			children = (
-				56BAE6251A70A3EC00EB4A12 /* SKTwitterViewController.bundle */,
-				56BAE6261A70A3EC00EB4A12 /* SKTwitterViewController.framework */,
+				14CEDD3F1A717F6B008C54BE /* SKTwitterViewController.framework */,
+				14041C2C1A71451600CF591A /* SKTwitterViewController.bundle */,
 				56370CD51A6F85AA006109EF /* SKTwitterViewControllerDemo */,
 				56370CEF1A6F85AA006109EF /* SKTwitterViewControllerDemoTests */,
 				56370CD41A6F85AA006109EF /* Products */,
@@ -131,7 +131,7 @@
 		56370CD51A6F85AA006109EF /* SKTwitterViewControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
-				56370D1C1A6F8628006109EF /* Main.storyboard */,
+				14CEDD301A7159BF008C54BE /* Main_xcode5.storyboard */,
 				56370CFC1A6F8619006109EF /* Controllers */,
 				56370CFF1A6F8619006109EF /* Model */,
 				56370D091A6F8619006109EF /* Views */,
@@ -301,11 +301,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56BAE6271A70A3EC00EB4A12 /* SKTwitterViewController.bundle in Resources */,
+				14041C2E1A71451600CF591A /* SKTwitterViewController.bundle in Resources */,
 				56370D191A6F8619006109EF /* SKTwitterAlbumMediaViewRectangleStyle.xib in Resources */,
-				56370D1E1A6F8628006109EF /* Main.storyboard in Resources */,
 				56370CE71A6F85AA006109EF /* LaunchScreen.xib in Resources */,
 				56370D1B1A6F8619006109EF /* SKTwitterAlbumMediaViewSquareStyle.xib in Resources */,
+				14CEDD321A7159BF008C54BE /* Main_xcode5.storyboard in Resources */,
 				56370CE41A6F85AA006109EF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,20 +389,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		14CEDD301A7159BF008C54BE /* Main_xcode5.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14CEDD311A7159BF008C54BE /* Base */,
+			);
+			name = Main_xcode5.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		56370CE51A6F85AA006109EF /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				56370CE61A6F85AA006109EF /* Base */,
 			);
 			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-		56370D1C1A6F8628006109EF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				56370D1D1A6F8628006109EF /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

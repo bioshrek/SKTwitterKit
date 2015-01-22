@@ -80,42 +80,6 @@
                                                                    mediaNameAttributedText:[[NSAttributedString alloc] initWithString:@"Share your moments.txt"
                                                                                                                            attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:16.0f]}]
                                                                    mediaSizeAttributedText:[[NSAttributedString alloc] initWithString:@"16.8 KB"
-                                                                                                                           attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:12.0f]}]],
-                             [[SKTwitterAlbumMediaDataItem alloc] initWithMediaDisplaySize:CGSizeMake(70, 70)
-                                                                                mediaState:SKMessageMediaStateToBeDownloaded
-                                                                   mediaNameAttributedText:[[NSAttributedString alloc] initWithString:@"Share your moments.txt"
-                                                                                                                           attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:16.0f]}]
-                                                                   mediaSizeAttributedText:[[NSAttributedString alloc] initWithString:@"16.8 KB"
-                                                                                                                           attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:12.0f]}]],
-                             [[SKTwitterAlbumMediaDataItem alloc] initWithMediaDisplaySize:CGSizeMake(70, 70)
-                                                                                mediaState:SKMessageMediaStateToBeDownloaded
-                                                                   mediaNameAttributedText:[[NSAttributedString alloc] initWithString:@"Share your moments.txt"
-                                                                                                                           attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:16.0f]}]
-                                                                   mediaSizeAttributedText:[[NSAttributedString alloc] initWithString:@"16.8 KB"
-                                                                                                                           attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:12.0f]}]],
-                             [[SKTwitterAlbumMediaDataItem alloc] initWithMediaDisplaySize:CGSizeMake(70, 70)
-                                                                                mediaState:SKMessageMediaStateToBeDownloaded
-                                                                   mediaNameAttributedText:[[NSAttributedString alloc] initWithString:@"Share your moments.txt"
-                                                                                                                           attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:16.0f]}]
-                                                                   mediaSizeAttributedText:[[NSAttributedString alloc] initWithString:@"16.8 KB"
-                                                                                                                           attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:12.0f]}]],
-                             [[SKTwitterAlbumMediaDataItem alloc] initWithMediaDisplaySize:CGSizeMake(70, 70)
-                                                                                mediaState:SKMessageMediaStateToBeDownloaded
-                                                                   mediaNameAttributedText:[[NSAttributedString alloc] initWithString:@"Share your moments.txt"
-                                                                                                                           attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:16.0f]}]
-                                                                   mediaSizeAttributedText:[[NSAttributedString alloc] initWithString:@"16.8 KB"
-                                                                                                                           attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:12.0f]}]],
-                             [[SKTwitterAlbumMediaDataItem alloc] initWithMediaDisplaySize:CGSizeMake(70, 70)
-                                                                                mediaState:SKMessageMediaStateToBeDownloaded
-                                                                   mediaNameAttributedText:[[NSAttributedString alloc] initWithString:@"Share your moments.txt"
-                                                                                                                           attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:16.0f]}]
-                                                                   mediaSizeAttributedText:[[NSAttributedString alloc] initWithString:@"16.8 KB"
-                                                                                                                           attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:12.0f]}]],
-                             [[SKTwitterAlbumMediaDataItem alloc] initWithMediaDisplaySize:CGSizeMake(70, 70)
-                                                                                mediaState:SKMessageMediaStateToBeDownloaded
-                                                                   mediaNameAttributedText:[[NSAttributedString alloc] initWithString:@"Share your moments.txt"
-                                                                                                                           attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:16.0f]}]
-                                                                   mediaSizeAttributedText:[[NSAttributedString alloc] initWithString:@"16.8 KB"
                                                                                                                            attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:12.0f]}]]
                              ];
     NSArray *mediaItem2 = @[
